@@ -1,0 +1,243 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*---------------construct----------------*/
+.topbar
+{
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	padding-left: 20px;
+	border-bottom: solid 1px #666666;
+
+	position: fixed;
+	top: 0;
+
+	background: #ffffff;
+
+}
+.container
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 100px;
+	height: auto;
+
+}
+
+footer
+{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border-top: solid 1px #e3e3e3;
+	text-align: center;
+	background-color: #e3e3e3;
+	clear: both;
+}
+/*---------------construct----------------*/
+
+/*---------------header----------------*/
+.topbar h1
+{
+	display: block;
+	position: relative;
+	left: 10%;
+}
+.topbar img
+{
+	display: block;
+
+	position: relative;
+	float: left;
+	left: 10%;
+	width: 200px;
+
+
+}
+table.pos
+{
+	position:  absolute;
+	width: 80%;
+	left: 10%;
+	top: 0;
+	height: 100px;
+}
+.topbar table td
+{
+	height: 100%;
+}
+.topnav
+{
+	display: block;
+	float: right;
+	position: relative;
+	right: 10%;
+	top: 60%;
+} 
+.topnav ul
+{
+
+	padding-bottom: 0px;
+	bottom: 0;
+}
+.topnav li
+{
+	width: 90px;
+	margin-right: 20px;
+	list-style: none;
+	float: left;
+}
+.topnav li a
+{
+	color: #666666;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+/*---------------------header-----------------*/
+
+/*--------------------sidenav-----------------*/
+.sidenav
+{
+	z-index: 1;
+	position: fixed;
+	float: left;
+	width: 20%;
+	height: auto;
+	border-right: solid 1px #666666;
+	text-align: right;
+}
+.sidenav a
+{
+	text-decoration: none;
+	display: block;
+	position: relative;
+	float: right;
+	width: 100%;
+	padding: 20px;
+	color: #666666
+
+}
+/*--------------------sidenav-----------------*/
+
+/*--------------introduction-frame------------*/
+.introduction-frame
+{
+	position: absolute;
+	left: 20%;
+	width: 80%;
+	height: auto;
+	text-align: left;
+}
+
+.introduction
+{
+	margin: 30px 30px;
+}
+.introduction h1
+{
+	color: #33cccc;
+	font-weight: normal;
+}
+.introduction h2
+{
+	color: #5ccccc;
+	font-weight: normal;
+}
+.introduction img
+{
+	max-width: 1000px;
+}
+/*--------------introduction-frame------------*/
+
+/*-------------------index-background---------*/
+.background_home
+{
+	width: 100%;
+	height: 300px;
+	background-color: #33cccc;
+
+	color:#ffffff;
+}
+
+.background_home h1
+{
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-weight: normal;
+}
+.background_home h3
+{
+	display: block;
+	text-align: center;
+	font-weight: normal;
+}
+.background_home a
+{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+/*------------------index-background-----------*/
+
+/*-------------------clips----------------------*/
+.clips
+{
+	width: 100%;
+	height: 300px;
+	background-color: #ffffff;
+}
+table.image_logo
+{
+/*	position: absolute;*/
+	padding-left: 0;
+	margin-top: 50px;
+	width: 1255px;
+	left: 20%;
+	background-color: #fefefe;
+}
+table.image_logo tr td
+{
+	display: block;
+	text-align: center;
+	float: left;
+	width: 250px;
+	height: 150px;
+
+}
+table.image_logo img
+{
+	width: 200px;
+}
+/*-------------------clips----------------------*/
+
+/*-----------------introduction-index-----------------*/
+.introduction-index
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+
+}
+.introduction-index h1
+{
+	text-align: center;
+	font-weight: normal;
+	color: #33cccc;/*ca3b22*/
+}
+.introduction-index p
+{
+	font-family: 微软雅黑;
+
+}
+/*-----------------introduction-index-----------------*/
