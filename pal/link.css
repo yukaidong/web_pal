@@ -3,6 +3,11 @@
 	margin: 0;
 	padding: 0;
 }
+body,html
+{
+	font-family: Arial, 微软雅黑, verdana, Helvetica, sans-serif;
+	color: #000000;
+}
 /*---------------construct----------------*/
 .topbar
 {
@@ -149,6 +154,11 @@ table.pos
 	color: #5ccccc;
 	font-weight: normal;
 }
+.introduction a
+{
+	text-decoration: none;
+	color: black;
+}
 .introduction img
 {
 	max-width: 1000px;
@@ -178,23 +188,15 @@ table.pos
 	text-align: center;
 	font-weight: normal;
 }
-.background_home a
+.button
 {
 	display: block;
 	text-align: center;
-	text-decoration: none;
-	color: white;
 }
-.button
+.button a img
 {
-	width: 120px;
-	margin: 20px auto;
-	text-align: center;
-	text-decoration:none;
-
-    font-size: 20px;
-    color: #ffffff;
-	font-family:微软雅黑, 幼圆;
+	margin: 0 auto;
+	width: 250px;
 }
 /*------------------index-background-----------*/
 
@@ -213,6 +215,7 @@ table.image_logo
 	width: 1255px;
 	left: 20%;
 	background-color: #fefefe;
+	border: 0;
 }
 table.image_logo tr td
 {
