@@ -5,8 +5,12 @@
 }
 body,html
 {
-	font-family: Arial, 微软雅黑, verdana, Helvetica, sans-serif;
+	font-family: 微软雅黑;
 	color: #000000;
+}
+img
+{
+	border: 0;
 }
 /*---------------construct----------------*/
 .topbar
@@ -29,7 +33,6 @@ body,html
 	position: absolute;
 	margin-top: 100px;
 	height: auto;
-
 }
 
 footer
@@ -57,13 +60,10 @@ footer
 .topbar img
 {
 	display: block;
-
 	position: relative;
 	float: left;
 	left: 10%;
 	width: 200px;
-
-
 }
 table.pos
 {
@@ -87,7 +87,6 @@ table.pos
 } 
 .topnav ul
 {
-
 	padding-bottom: 0px;
 	bottom: 0;
 }
@@ -172,7 +171,7 @@ table.pos
 	height: 300px;
 	background-color: #33cccc;
 
-	color:#ffffff;
+	color: #ffffff;
 }
 
 .background_home h1
@@ -240,7 +239,6 @@ table.image_logo img
 	display: block;
 	margin: 0 auto;
 	width: 1000px;
-
 }
 .introduction-index h1
 {
@@ -251,6 +249,5 @@ table.image_logo img
 .introduction-index p
 {
 	font-family: 微软雅黑;
-
 }
 /*-----------------introduction-index-----------------*/
