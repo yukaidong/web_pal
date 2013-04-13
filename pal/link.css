@@ -5,7 +5,7 @@
 }
 body,html
 {
-	font-family: 微软雅黑;
+	font-family: "Microsoft Yahei","微软雅黑","宋体", Helvetica, Arial,  sans-serif;
 	color: #000000;
 }
 img
@@ -145,12 +145,12 @@ table.pos
 }
 .introduction h1
 {
-	color: #33cccc;
+	color: rgb(195, 142, 196);
 	font-weight: normal;
 }
 .introduction h2
 {
-	color: #5ccccc;
+	color: rgb(195, 142, 196);
 	font-weight: normal;
 }
 .introduction a
@@ -169,7 +169,7 @@ table.pos
 {
 	width: 100%;
 	height: 300px;
-	background-color: #33cccc;
+	background-color: rgb(173,77,200);
 
 	color: #ffffff;
 }
@@ -228,6 +228,10 @@ table.image_logo tr td
 table.image_logo img
 {
 	width: 200px;
+}
+table.image_logo img:hover
+{
+	width: 250px;
 }
 /*-------------------clips----------------------*/
 
